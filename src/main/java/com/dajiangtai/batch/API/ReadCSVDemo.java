@@ -17,7 +17,7 @@ public class ReadCSVDemo {
         ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
         //读取输入数据
-        DataSet<Tuple3<Integer,Integer,String>> csvDS = env.readCsvFile("E:\\工作资料\\大讲台资料汇总\\大讲台教学相关\\大讲台课程相关\\flink 课程\\Flink 实时数仓项目实战\\数据源\\user.csv")
+        DataSet<Tuple3<Integer,Integer,String>> csvDS = env.readCsvFile("C:\\Users\\seansheen\\Desktop\\spring代码\\947de11dba327c042eb45c7f58f978c7\\Flink1.8实时数仓项目实战【314190】数据去重实操\\Flink 实时数仓项目实战-完整资料\\数据源\\user.csv")
                 .includeFields("11100")
                 .ignoreFirstLine()
                 //.ignoreInvalidLines()
